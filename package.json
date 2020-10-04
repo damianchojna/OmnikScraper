@@ -1,0 +1,19 @@
+{
+  "name": "omnikscraper",
+  "version": "1.0.0",
+  "description": "Solar panel inverter data retrieval",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianchojna/OmnikScraper.git"
+  },
+  "author": "Damian Chojna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damianchojna/OmnikScraper/issues"
+  },
+  "homepage": "https://github.com/damianchojna/OmnikScraper#readme"
+}
