@@ -1,10 +1,10 @@
 import InverterStatusInteface from "../models/InverterStatusInteface"
 
 export default class InverterDto {
-    static pageToInverterStatus(page: ""): InverterStatusInteface {
+    static pageToInverterStatus(page: string): InverterStatusInteface {
         const foundRegexp = page.match(/myDeviceArray.*="(.*)"/)
 
-        if (!foundRegexp || !foundRegexp[1]) throw Error("No data in returned page!")
+        if (!foundRegexp || !foundRegexp[1]) throw Error("No data in returned page!\n page")
         const values = foundRegexp[1].split(",")
 
         return {
