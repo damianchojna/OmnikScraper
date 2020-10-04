@@ -1,0 +1,11 @@
+{
+    "inverter": {
+        "httpClient": {
+            "host": "http://192.168.0.6",
+            "auth": {
+                "username": "admin",
+                "password": "admin"
+            }
+        }
+    }
+}
